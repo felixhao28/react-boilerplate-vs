@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mxstbr/react-boilerplate.git"
+    "url": "git://github.com/felixhao28/react-boilerplate.git"
   },
   "scripts": {
     "lint": "eslint .",

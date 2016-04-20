@@ -4,3 +4,8 @@ js/bundle.js
 js/bundle.min.js
 build
 npm-debug.log
+*.suo
+/bin/Microsoft.NodejsTools.WebRole.dll
+/obj/Debug
+/typings
+/tsd.json

@@ -2,7 +2,7 @@
 
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
-var config = require('./webpack.dev.config');
+var config = require('./webpack.config');
 
 console.log('Starting server...\n');
 

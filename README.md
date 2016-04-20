@@ -1,17 +1,22 @@
-# React.js Boilerplate
+# React.js Boilerplate for Visual Studio
 
-[![Dependency Status][dep-status-img]][dep-status-link] [![devDependency Status][dev-dep-status-img]][dev-dep-status-link] [![Build Status][ci-img]][ci] [![Join the chat at https://gitter.im/mxstbr/react-boilerplate](https://badges.gitter.im/mxstbr/react-boilerplate.svg)](https://gitter.im/mxstbr/react-boilerplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dependency Status][dep-status-img]][dep-status-link]
+[![devDependency Status][dev-dep-status-img]][dev-dep-status-link]
+[![Build Status][ci-img]][ci]
+[![Join the chat at https://gitter.im/mxstbr/react-boilerplate](https://badges.gitter.im/mxstbr/react-boilerplate.svg)](https://gitter.im/mxstbr/react-boilerplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Quick setup for new performance orientated, offline–first React.js applications featuring Redux, hot–reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.
 
 Made with :heart: by [Max Stoiber](https://twitter.com/mxstbr)!
 
-[dep-status-img]: https://david-dm.org/mxstbr/react-boilerplate.svg
-[dep-status-link]: https://david-dm.org/mxstbr/react-boilerplate
-[dev-dep-status-img]: https://david-dm.org/mxstbr/react-boilerplate/dev-status.svg
-[dev-dep-status-link]: https://david-dm.org/mxstbr/react-boilerplate#info=devDependencies
-[ci-img]: https://travis-ci.org/mxstbr/react-boilerplate.svg?branch=master
-[ci]: https://travis-ci.org/mxstbr/react-boilerplate
+Imported to Visual Studio by [Felix Hao](http://github.com/felixhao28)
+
+[dep-status-img]: https://david-dm.org/felixhao28/react-boilerplate-vs.svg
+[dep-status-link]: https://david-dm.org/felixhao28/react-boilerplate-vs
+[dev-dep-status-img]: https://david-dm.org/felixhao28/react-boilerplate-vs/dev-status.svg
+[dev-dep-status-link]: https://david-dm.org/felixhao28/react-boilerplate-vs#info=devDependencies
+[ci-img]: https://travis-ci.org/felixhao28/react-boilerplate-vs.svg?branch=master
+[ci]: https://travis-ci.org/felixhao28/react-boilerplate-vs
 
 -----
 
@@ -38,17 +43,19 @@ Version 3.0 is actively being developed on the [v3.0.0 branch], please check it 
 
 ## Getting started
 
-1. Clone this repo using `git clone https://github.com/mxstbr/react-boilerplate.git`.
+1. Install Visual Studio 2015, [Node.js Tools for Visual Studio](https://www.visualstudio.com/features/node-js-vs), [Webpack Task Runner](https://visualstudiogallery.msdn.microsoft.com/5497fd10-b1ba-474c-8991-1438ae47012a)
 
-2. Delete the existing git repository by running `rm -rf .git`.
+1. Clone this repo using `git clone https://github.com/felixhao28/react-boilerplate-vs.git`.
 
-3. Initialize a new git repository with `git init`, `git add .` and `git commit -m "Initial commit"`.
+1. Delete the existing git repository by running `rm -rf .git`.
 
-4. Run `npm install` to install the dependencies.
+1. Open react-boilerplate-vs.sln.
 
-5. Run `npm start` to start the local web server.
+1. Right click on "npm" in Solution Explorer, choose "Install Missing npm Packages...".
 
-6. Go to `http://localhost:3000` and you should see the app running!
+1. Run `npm start` to start the local web server.
+
+1. Go to `http://localhost:3000` and you should see the app running!
 
 ## Building & Deploying
 
