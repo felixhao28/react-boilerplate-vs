@@ -1,6 +1,6 @@
-# Contributing to react-boilerplate
+# Contributing to react-boilerplate-vs
 
-Love react-boilerplate and want to help? Thanks so much, there's something to do for everybody!
+Love react-boilerplate-vs and want to help? Thanks so much, there's something to do for everybody!
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -8,7 +8,12 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/mxstbr/react-boilerplate/issues) is
+If your issue is related to this Visual Studio porting of [react-boilerplate](https://github.com/mxstbr/react-boilerplate),
+The [issue tracker](https://github.com/felixhao28/react-boilerplate-vs/issues) is
+the preferred channel for [bug reports](#bugs), [features requests](#features)
+and [submitting pull requests](#pull-requests).
+
+Otherwise, the [issue tracker](https://github.com/mxstbr/react-boilerplate/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests).
 
@@ -73,6 +78,8 @@ The `master` branch is protected, because the main way people get this boilerpla
 
 Adhering to the following process is the best way to get your work included in the project:
 
+0. You are recommended to use [GitHub Extension for Visual Studio](https://visualstudio.github.com/) to contribute.
+
 1. [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your fork, and configure the remotes:
 
    ```bash
@@ -81,7 +88,7 @@ Adhering to the following process is the best way to get your work included in t
    # Navigate to the newly cloned directory
    cd react-boilerplate
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/mxstbr/react-boilerplate.git
+   git remote add upstream https://github.com/felixhao28/react-boilerplate-vs.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

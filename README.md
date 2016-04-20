@@ -45,17 +45,19 @@ Version 3.0 is actively being developed on the [v3.0.0 branch], please check it 
 
 1. Install Visual Studio 2015, [Node.js Tools for Visual Studio](https://www.visualstudio.com/features/node-js-vs), [Webpack Task Runner](https://visualstudiogallery.msdn.microsoft.com/5497fd10-b1ba-474c-8991-1438ae47012a)
 
-1. Clone this repo using `git clone https://github.com/felixhao28/react-boilerplate-vs.git`.
+1. (Optional) Install [GitHub Extension for Visual Studio](https://visualstudio.github.com/) if you want to contribute.
 
-1. Delete the existing git repository by running `rm -rf .git`.
+1. Open Team Explorer window, click the plug icon (Manage Connections) and click "Clone" in Local Git Repositories.
+
+1. Enter https://github.com/felixhao28/react-boilerplate-vs as the URL, choose a local repo path and click Clone button.
+
+1. (Optional) Delete the existing git repository in Team Explorer window (Team Explorer -> Settings -> Repository Settings).
 
 1. Open react-boilerplate-vs.sln.
 
 1. Right click on "npm" in Solution Explorer, choose "Install Missing npm Packages...".
 
-1. Run `npm start` to start the local web server.
-
-1. Go to `http://localhost:3000` and you should see the app running!
+1. Press `F5` and you should see the app running!
 
 ## Building & Deploying
 
